@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/android/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/.cxx/RelWithDebInfo/3o313as5/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/android/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/.cxx/RelWithDebInfo/3o313as5/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "artifactName": "native-lib",
+      "abi": "arm64-v8a",
+      "output": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/build/intermediates/cxx/RelWithDebInfo/3o313as5/obj/arm64-v8a/libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

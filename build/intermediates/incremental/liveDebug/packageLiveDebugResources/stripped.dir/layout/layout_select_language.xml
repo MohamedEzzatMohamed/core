@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_border_top_radius" android:tag="layout/layout_select_language_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/selectLanguageTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/size20"
+            android:layout_marginTop="@dimen/size20"
+            android:fontFamily="@font/changa_bold"
+            android:text="@string/selectLanguage"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/selectLanguageToContinueTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="@font/changa_medium"
+            android:text="@string/selectLanguageToContinueWith"
+            android:textColor="@color/custom_gray"
+            android:textSize="@dimen/size12"
+            app:layout_constraintEnd_toEndOf="@+id/selectLanguageTv"
+            app:layout_constraintStart_toStartOf="@+id/selectLanguageTv"
+            app:layout_constraintTop_toBottomOf="@+id/selectLanguageTv" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/englishLLC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size17"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/size17"
+            app:layout_constraintEnd_toEndOf="@+id/selectLanguageToContinueTv"
+            app:layout_constraintStart_toStartOf="@+id/selectLanguageToContinueTv"
+            app:layout_constraintTop_toBottomOf="@+id/selectLanguageToContinueTv">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/englishIv"
+                android:layout_width="@dimen/_21sdp"
+                android:layout_height="@dimen/_14sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_english"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectLanguageToContinueTv" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/englishTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size10"
+                android:fontFamily="@font/changa_medium"
+                android:includeFontPadding="false"
+                android:text="@string/englishLanguage"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size12" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/arabicLLC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/size17"
+            app:layout_constraintEnd_toEndOf="@+id/englishLLC"
+            app:layout_constraintStart_toStartOf="@+id/englishLLC"
+            app:layout_constraintTop_toBottomOf="@+id/englishLLC">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/arabicIv"
+                android:layout_width="@dimen/_21sdp"
+                android:layout_height="@dimen/_14sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arabic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectLanguageToContinueTv" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/arabicTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size10"
+                android:fontFamily="@font/changa_medium"
+                android:includeFontPadding="false"
+                android:text="@string/arabicLanguage"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size12" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

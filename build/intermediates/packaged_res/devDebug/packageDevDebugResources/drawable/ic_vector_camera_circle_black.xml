@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:autoMirrored="true"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@color/blue_login_button"
+        android:pathData="M16,0L16,0A16,16 0,0 1,32 16L32,16A16,16 0,0 1,16 32L16,32A16,16 0,0 1,0 16L0,16A16,16 0,0 1,16 0z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M9,11L10,11A2,2 0,0 0,12 9,1 1,0 0,1 13,8h6a1,1 0,0 1,1 1,2 2,0 0,0 2,2h1a2,2 0,0 1,2 2v9a2,2 0,0 1,-2 2L9,24a2,2 0,0 1,-2 -2L7,13A2,2 0,0 1,9 11"
+        android:strokeWidth="1.5"
+        android:strokeColor="#fff"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M13,17a3,3 0,1 0,3 -3,3 3,0 0,0 -3,3"
+        android:strokeWidth="1.5"
+        android:strokeColor="#fff"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="genericErrorMessage">Something wrong happened please try again!</string>
+    <string name="retry">Retry</string>
+    <string name="selectLanguage">Select Language</string>
+    <string name="selectLanguageToContinueWith">Select the language you want to continue with</string>
+    <string name="englishLanguage">English</string>
+    <string name="arabicLanguage">Arabic</string>
+
+    <string name="countryOfEgypt">Egypt (EG)</string>
+    <string name="countryOfSaudiArabia">Saudi Arabia (SA)</string>
+    <string name="selectCountryCode">Select Country Code</string>
+    <string name="networkConnection">No internet connection</string>
+    <string name="tryAgain">Try again</string>
+    <string name="copiedToClipboard">Copied To Clipboard</string>
+
+    <string name="allow">Allow</string>
+
+    <string name="allow_camera_instructions"><![CDATA[Go Permission > Camera > Allow Camera]]></string>
+    <string name="dnyPermissionMessage">Permission</string>
+    <string name="ok">Ok</string>
+    <string name="canNotCaptureAnImage">"Can't Capture an image"</string>
+</resources>

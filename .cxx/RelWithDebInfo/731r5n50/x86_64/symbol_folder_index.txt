@@ -1,0 +1,1 @@
+/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/build/intermediates/cxx/RelWithDebInfo/731r5n50/obj/x86_64

@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120.843dp"
+    android:height="107.815dp"
+    android:alpha="0.9"
+    android:autoMirrored="true"
+    android:viewportWidth="120.843"
+    android:viewportHeight="107.815">
+    <path
+        android:fillColor="@color/blue_login_button"
+        android:pathData="M12.687,107.814h95.469a12.676,12.676 0,0 0,10.967 -19.017L71.388,6.323a12.672,12.672 0,0 0,-21.934 0L1.72,88.797a12.676,12.676 0,0 0,10.967 19.018zM60.421,63.44a6.358,6.358 0,0 1,-6.339 -6.339L54.082,44.422a6.339,6.339 0,1 1,12.678 0v12.678a6.358,6.358 0,0 1,-6.339 6.34zM66.761,88.797L54.082,88.797L54.082,76.118L66.761,76.118z" />
+</vector>

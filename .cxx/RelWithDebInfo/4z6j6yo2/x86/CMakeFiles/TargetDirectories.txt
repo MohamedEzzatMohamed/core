@@ -1,0 +1,3 @@
+/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/.cxx/RelWithDebInfo/4z6j6yo2/x86/CMakeFiles/native-lib.dir
+/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/.cxx/RelWithDebInfo/4z6j6yo2/x86/CMakeFiles/edit_cache.dir
+/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/.cxx/RelWithDebInfo/4z6j6yo2/x86/CMakeFiles/rebuild_cache.dir

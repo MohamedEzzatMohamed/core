@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="allow">موافق</string>
+    <string name="allow_camera_instructions"><![CDATA[انتقل إلى الإذن > الكاميرا > السماح بالكاميرا]]></string>
+    <string name="arabicLanguage">اللغه العربية</string>
+    <string name="canNotCaptureAnImage">"لا يمكن التقاط صورة"</string>
+    <string name="copiedToClipboard">نسخ إلى الحافظة</string>
+    <string name="countryOfEgypt">مصر (EG)</string>
+    <string name="countryOfSaudiArabia">المملكة العربية السعوددية (SA)</string>
+    <string name="dnyPermissionMessage">إذن</string>
+    <string name="englishLanguage">اللغة الإنجليزية</string>
+    <string name="genericErrorMessage">حدث خطأ، حاول مرة آخرى</string>
+    <string name="networkConnection">لا يوجد إتصال بالانترنت</string>
+    <string name="ok">موافق</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="selectCountryCode">أختر كود الدولة</string>
+    <string name="selectLanguage">اختر اللغة</string>
+    <string name="selectLanguageToContinueWith">اختر اللغة التي ترغب في الاستمرار بها</string>
+    <string name="tryAgain">حاول مرة أخرى</string>
+</resources>

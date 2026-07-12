@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size48">@dimen/_22sdp</dimen>
+    <dimen name="size12">@dimen/_8sdp</dimen>
+    <dimen name="size10">@dimen/_6sdp</dimen>
+    <dimen name="size8">@dimen/_4sdp</dimen>
+    <dimen name="size18">@dimen/_10sdp</dimen>
+    <dimen name="size20">@dimen/_10sdp</dimen>
+    <dimen name="size27">@dimen/_14sdp</dimen>
+    <dimen name="size55">@dimen/_24sdp</dimen>
+    <dimen name="size41">@dimen/_20sdp</dimen>
+    <dimen name="size31">@dimen/_16sdp</dimen>
+    <dimen name="size13">@dimen/_7sdp</dimen>
+    <dimen name="size14">@dimen/_8sdp</dimen>
+    <dimen name="size15">@dimen/_9sdp</dimen>
+    <dimen name="size16">@dimen/_10sdp</dimen>
+    <dimen name="size17">@dimen/_11sdp</dimen>
+    <dimen name="size185">@dimen/_95sdp</dimen>
+    <dimen name="size260">@dimen/_220sdp</dimen>
+    <dimen name="size230">@dimen/_140sdp</dimen>
+    <dimen name="size125">@dimen/_75sdp</dimen>
+</resources>

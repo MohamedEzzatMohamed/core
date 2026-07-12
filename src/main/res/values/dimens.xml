@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="strokeWidth">1dp</dimen>
+    <!--    SPACING-->
+    <dimen name="tiny">@dimen/_4sdp</dimen>
+    <dimen name="xsml">@dimen/_7sdp</dimen>
+    <dimen name="sml">@dimen/_12sdp</dimen>
+    <dimen name="reg">@dimen/_15sdp</dimen>
+    <dimen name="med">@dimen/_20sdp</dimen>
+    <dimen name="lrg">@dimen/_28sdp</dimen>
+    <dimen name="xlrg">@dimen/_36sdp</dimen>
+
+    <dimen name="size48">@dimen/_48sdp</dimen>
+    <dimen name="size12">@dimen/_12sdp</dimen>
+    <dimen name="size10">@dimen/_10sdp</dimen>
+    <dimen name="size8">@dimen/_8sdp</dimen>
+    <dimen name="size18">@dimen/_18sdp</dimen>
+    <dimen name="size20">@dimen/_20sdp</dimen>
+    <dimen name="size27">@dimen/_27sdp</dimen>
+    <dimen name="size55">@dimen/_55sdp</dimen>
+    <dimen name="size41">@dimen/_41sdp</dimen>
+    <dimen name="size31">@dimen/_31sdp</dimen>
+    <dimen name="size13">@dimen/_13sdp</dimen>
+    <dimen name="size14">@dimen/_14sdp</dimen>
+    <dimen name="size15">@dimen/_15sdp</dimen>
+    <dimen name="size16">@dimen/_16sdp</dimen>
+    <dimen name="size17">@dimen/_17sdp</dimen>
+    <dimen name="size185">@dimen/_185sdp</dimen>
+    <dimen name="size260">@dimen/_260sdp</dimen>
+    <dimen name="size230">@dimen/_230sdp</dimen>
+    <dimen name="size125">@dimen/_125sdp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">@dimen/_11sdp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">@dimen/_12sdp</dimen>
+</resources>

@@ -1,0 +1,247 @@
+plugins {
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+    id("dagger.hilt.android.plugin")
+    id("kotlin-parcelize")
+}
+
+android {
+    namespace = "com.core.shared"
+    compileSdk = 36
+
+    buildFeatures {
+        buildConfig = true
+    }
+    
+    defaultConfig {
+        minSdk = 26
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
+        resourceConfigurations.addAll(listOf("en", "ar"))
+    }
+
+    buildTypes {
+        getByName("debug") {
+            isMinifyEnabled = false
+            isShrinkResources = false
+        }
+        getByName("release") {
+            isMinifyEnabled = false
+            isShrinkResources = false
+            proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.txt")
+        }
+    }
+
+    flavorDimensions.add("version")
+    productFlavors {
+        create("staging") {
+            dimension = "version"
+        }
+
+        create("dev") {
+            dimension = "version"
+        }
+
+        create("live") {
+            dimension = "version"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    buildFeatures {
+        //noinspection DataBindingWithoutKapt
+        dataBinding = true
+        viewBinding = true
+    }
+
+
+    // Specify NDK version (optional)
+    ndkVersion = "28.1.13356709"
+
+
+    externalNativeBuild {
+        cmake {
+            path = file("src/main/cpp/CMakeLists.txt")
+        }
+    }
+}
+
+dependencies {
+
+    api(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
+
+    api("androidx.core:core-ktx:1.17.0")
+    api("androidx.appcompat:appcompat:1.7.1")
+    api("com.google.android.material:material:1.12.0")
+    api("androidx.constraintlayout:constraintlayout:2.1.4")
+    api("androidx.legacy:legacy-support-v4:1.0.0")
+    api("androidx.preference:preference-ktx:1.2.1")
+    api("androidx.activity:activity-ktx:1.9.0")
+
+    api("org.jetbrains.kotlin:kotlin-reflect:2.2.0")
+
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    // Fawry
+    api("com.fawry.fawrypay:sdk:0.1.46")
+
+    //webkit
+    api("androidx.webkit:webkit:1.14.0")
+
+    // hilt api.
+    api("com.google.dagger:hilt-android:2.49")
+    kapt("com.google.dagger:hilt-android-compiler:2.47")
+    kapt("androidx.hilt:hilt-compiler:1.2.0")
+    api("androidx.hilt:hilt-navigation-fragment:1.2.0")
+
+
+    // Koin
+    api("io.insert-koin:koin-android:3.5.6")
+    api("io.insert-koin:koin-androidx-navigation:3.5.6")
+
+    // Gson
+    api("com.google.code.gson:gson:2.11.0")
+
+    // Navigation component.
+    api("androidx.navigation:navigation-fragment-ktx:2.7.7")
+    api("androidx.navigation:navigation-ui-ktx:2.7.7")
+
+    // ViewModel
+    api("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1")
+    api("androidx.lifecycle:lifecycle-runtime-ktx:2.8.1")
+
+    //ViewModels delegation extensions for activity
+    api("androidx.activity:activity-ktx:1.9.0")
+    api("androidx.fragment:fragment-ktx:1.7.1")
+
+    // LiveData
+    api("androidx.lifecycle:lifecycle-livedata-ktx:2.8.1")
+
+    //process-phoenix
+    api("com.jakewharton:process-phoenix:3.0.0")
+
+    // Coroutines
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+
+    // Retrofit
+    api("com.squareup.retrofit2:retrofit:2.11.0")
+    api("com.squareup.retrofit2:converter-gson:2.9.0")
+    api("com.squareup.okhttp3:okhttp:4.12.0")
+    api("com.squareup.okhttp3:okhttp-dnsoverhttps:4.10.0")
+    api("com.squareup.okhttp3:logging-interceptor:4.9.2")
+
+    // ApolloGraphql
+    api("com.apollographql.apollo3:apollo-runtime:3.8.4")
+    api("com.apollographql.apollo3:apollo-api:3.8.4")
+
+
+    //data-store
+    api("androidx.datastore:datastore:1.1.1")
+    api("androidx.datastore:datastore-preferences:1.1.1")
+
+    // sdp && ssp of font
+    val scalableUnit = "1.1.1"
+    api("com.intuit.sdp:sdp-android:$scalableUnit")
+    api("com.intuit.ssp:ssp-android:$scalableUnit")
+
+    //FireBase
+    api(platform("com.google.firebase:firebase-bom:33.0.0"))
+    api("com.google.firebase:firebase-crashlytics-ktx")
+    api("com.google.firebase:firebase-analytics-ktx")
+    api("com.google.firebase:firebase-messaging-ktx")
+    api("com.google.firebase:firebase-inappmessaging-ktx")
+    api("com.google.firebase:firebase-inappmessaging-display-ktx")
+    api("com.google.firebase:firebase-installations-ktx")
+    api("com.google.firebase:firebase-perf-ktx")
+    api("com.google.firebase:firebase-config-ktx:22.0.0")
+
+    // leak canary
+//    debugApi ("com.squareup.leakcanary:leakcanary-android:2.14")
+
+    // timber
+    api("com.jakewharton.timber:timber:5.0.1")
+
+    // encrypted shared preference
+    api("androidx.security:security-crypto:1.1.0")
+
+    // Lottie
+    api("com.airbnb.android:lottie:6.0.1")
+
+    //Android Remote Debugger
+    debugApi("com.github.zerobranch.android-remote-debugger:debugger:1.1.2")
+    releaseApi("com.github.zerobranch.android-remote-debugger:noop:1.1.0")
+
+
+    //Play Store App Update Libraries
+    api("com.google.android.play:app-update:2.1.0")
+    api("com.google.android.play:app-update-ktx:2.1.0")
+
+    //paging3
+    val pagingVersion = "3.3.0"
+    api("androidx.paging:paging-runtime-ktx:$pagingVersion")
+
+    api("androidx.work:work-runtime-ktx:2.9.0")
+
+    //Coil
+    api("io.coil-kt:coil:2.2.2")
+    api("io.coil-kt:coil-svg:2.2.2")
+
+
+    //pluto
+    debugApi("com.plutolib:pluto:2.0.6")
+    releaseApi("com.plutolib:pluto-no-op:2.0.6")
+    debugApi("com.plutolib.plugins:network:2.0.6")
+    releaseApi("com.plutolib.plugins:network-no-op:2.0.6")
+
+
+    // Zxing
+    api("com.google.zxing:core:3.5.0")
+
+    // maps
+    api("com.google.android.gms:play-services-maps:18.2.0")
+    api("com.google.android.gms:play-services-location:21.3.0")
+    api("com.google.android.gms:play-services-places:17.1.0")
+    api("com.google.android.libraries.places:places:3.5.0")
+
+
+
+    // CameraX
+    val cameraxVersion = "1.5.1"
+    api("androidx.camera:camera-core:$cameraxVersion")
+    api("androidx.camera:camera-camera2:$cameraxVersion")
+    api("androidx.camera:camera-lifecycle:$cameraxVersion")
+    api("androidx.camera:camera-view:$cameraxVersion")
+    api("androidx.camera:camera-extensions:$cameraxVersion")
+
+    //mlkit:barcode
+    api("com.google.mlkit:barcode-scanning:17.3.0")
+
+
+    //Glide
+    api("com.github.bumptech.glide:glide:4.11.0")
+    kapt("com.github.bumptech.glide:compiler:5.0.5")
+
+
+    // Lingver
+    api("com.github.YarikSOffice:lingver:1.3.0")
+
+    //truetime
+    api("com.github.instacart:truetime-android:4.0.0.alpha")
+
+    //coreLibraryDesugaring
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
+
+    implementation("com.scottyab:rootbeer-lib:0.1.1")
+
+}
