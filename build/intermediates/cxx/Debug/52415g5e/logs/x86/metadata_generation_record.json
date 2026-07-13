@@ -2,8 +2,8 @@
   {
     "level_": 0,
     "message_": "Start JSON generation. Platform version: 26 min SDK version: x86",
-    "file_": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
-    "tag_": "liveDebug|x86",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
     "unknownFields": {
@@ -14,9 +14,139 @@
   },
   {
     "level_": 0,
-    "message_": "JSON \u0027/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86/android_gradle_build.json\u0027 was up-to-date",
-    "file_": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
-    "tag_": "liveDebug|x86",
+    "message_": "rebuilding JSON /Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86/android_gradle_build.json due to:",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- a hard configure file changed, will remove stale configuration folder",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "  - /Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86/metadata_generation_command.txt (LAST_MODIFIED_CHANGED)",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86\u0027",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86\u0027",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake /Users/mohamedezzat/Library/Android/sdk/cmake/3.22.1/bin/cmake \\\n  -H/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d26 \\\n  -DANDROID_PLATFORM\u003dandroid-26 \\\n  -DANDROID_ABI\u003dx86 \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003dx86 \\\n  -DANDROID_NDK\u003d/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709 \\\n  -DCMAKE_ANDROID_NDK\u003d/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/Users/mohamedezzat/Library/Android/sdk/cmake/3.22.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e/obj/x86 \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e/obj/x86 \\\n  -DCMAKE_BUILD_TYPE\u003dDebug \\\n  -B/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86 \\\n  -GNinja\n",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "/Users/mohamedezzat/Library/Android/sdk/cmake/3.22.1/bin/cmake \\\n  -H/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d26 \\\n  -DANDROID_PLATFORM\u003dandroid-26 \\\n  -DANDROID_ABI\u003dx86 \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003dx86 \\\n  -DANDROID_NDK\u003d/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709 \\\n  -DCMAKE_ANDROID_NDK\u003d/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/Users/mohamedezzat/Library/Android/sdk/cmake/3.22.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e/obj/x86 \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e/obj/x86 \\\n  -DCMAKE_BUILD_TYPE\u003dDebug \\\n  -B/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86 \\\n  -GNinja\n",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Received process result: 0",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86/compile_commands.json.bin normally",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "hard linked /Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86/compile_commands.json to /Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/tools/devDebug/x86/compile_commands.json",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
     "unknownFields": {
@@ -28,8 +158,8 @@
   {
     "level_": 0,
     "message_": "JSON generation completed without problems",
-    "file_": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
-    "tag_": "liveDebug|x86",
+    "file_": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+    "tag_": "devDebug|x86",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
     "unknownFields": {

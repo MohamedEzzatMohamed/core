@@ -8,9 +8,9 @@
     "triple": "i686-linux-android",
     "llvmTriple": "i686-none-linux-android"
   },
-  "cxxBuildFolder": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86",
-  "soFolder": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e/obj/x86",
-  "soRepublishFolder": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/build/intermediates/cmake/liveDebug/obj/x86",
+  "cxxBuildFolder": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86",
+  "soFolder": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e/obj/x86",
+  "soRepublishFolder": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates/cmake/devDebug/obj/x86",
   "abiPlatformVersion": 26,
   "cmake": {
     "effectiveConfiguration": {
@@ -22,7 +22,7 @@
     "buildSystemArgumentList": [],
     "cFlagsList": [],
     "cppFlagsList": [],
-    "variantName": "liveDebug",
+    "variantName": "devDebug",
     "isDebuggableEnabled": true,
     "validAbiList": [
       "armeabi-v7a",
@@ -34,16 +34,16 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/.cxx",
-      "intermediatesBaseFolder": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/build/intermediates",
-      "intermediatesFolder": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/build/intermediates/cxx",
+      "cxxFolder": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx",
+      "intermediatesBaseFolder": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates",
+      "intermediatesFolder": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates/cxx",
       "gradleModulePathName": ":core",
-      "moduleRootFolder": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core",
-      "moduleBuildFile": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/build.gradle.kts",
-      "makeFile": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
+      "moduleRootFolder": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core",
+      "moduleBuildFile": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build.gradle.kts",
+      "makeFile": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp/CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "ndkFolder": "/home/android/Android/Sdk/ndk/28.1.13356709",
-      "ndkFolderBeforeSymLinking": "/home/android/Android/Sdk/ndk/28.1.13356709",
+      "ndkFolder": "/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709",
+      "ndkFolderBeforeSymLinking": "/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709",
       "ndkVersion": "28.1.13356709",
       "ndkSupportedAbiList": [
         "armeabi-v7a",
@@ -133,31 +133,31 @@
           "llvmTriple": "x86_64-none-linux-android"
         }
       ],
-      "cmakeToolchainFile": "/home/android/Android/Sdk/ndk/28.1.13356709/build/cmake/android.toolchain.cmake",
+      "cmakeToolchainFile": "/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709/build/cmake/android.toolchain.cmake",
       "cmake": {
-        "cmakeExe": "/home/android/Android/Sdk/cmake/3.22.1/bin/cmake"
+        "cmakeExe": "/Users/mohamedezzat/Library/Android/sdk/cmake/3.22.1/bin/cmake"
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "armeabi-v7a": "/home/android/Android/Sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
-          "arm64-v8a": "/home/android/Android/Sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
-          "riscv64": "/home/android/Android/Sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/riscv64-linux-android/libc++_shared.so",
-          "x86": "/home/android/Android/Sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
-          "x86_64": "/home/android/Android/Sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+          "armeabi-v7a": "/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "arm64-v8a": "/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "riscv64": "/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/riscv64-linux-android/libc++_shared.so",
+          "x86": "/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "x86_64": "/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App",
-        "sdkFolder": "/home/android/Android/Sdk",
+        "rootBuildGradleFolder": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App",
+        "sdkFolder": "/Users/mohamedezzat/Library/Android/sdk",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false
       },
       "outputOptions": [],
-      "ninjaExe": "/home/android/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "ninjaExe": "/Users/mohamedezzat/Library/Android/sdk/cmake/3.22.1/bin/ninja",
       "hasBuildTimeInformation": true
     },
     "prefabClassPaths": [],
@@ -169,27 +169,27 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/.cxx/Debug/52415g5e/prefab/x86",
+  "prefabFolder": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/prefab/x86",
   "isActiveAbi": true,
   "fullConfigurationHash": "52415g5e11w6d186e2h123952x4t5p173zj3r1652t6z36l1j4q6c6u5k3v",
   "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 8.9.1.\n#   - $NDK is the path to NDK 28.1.13356709.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/core/src/main/cpp\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d26\n-DANDROID_PLATFORM\u003dandroid-26\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/core/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/core/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B$PROJECT/core/.cxx/Debug/$HASH/$ABI\n-GNinja",
   "configurationArguments": [
-    "-H/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/src/main/cpp",
+    "-H/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/src/main/cpp",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_SYSTEM_VERSION\u003d26",
     "-DANDROID_PLATFORM\u003dandroid-26",
     "-DANDROID_ABI\u003dx86",
     "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
-    "-DANDROID_NDK\u003d/home/android/Android/Sdk/ndk/28.1.13356709",
-    "-DCMAKE_ANDROID_NDK\u003d/home/android/Android/Sdk/ndk/28.1.13356709",
-    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/android/Android/Sdk/ndk/28.1.13356709/build/cmake/android.toolchain.cmake",
-    "-DCMAKE_MAKE_PROGRAM\u003d/home/android/Android/Sdk/cmake/3.22.1/bin/ninja",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e/obj/x86",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e/obj/x86",
+    "-DANDROID_NDK\u003d/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/mohamedezzat/Library/Android/sdk/ndk/28.1.13356709/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/Users/mohamedezzat/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e/obj/x86",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e/obj/x86",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
-    "-B/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86",
+    "-B/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/.cxx/Debug/52415g5e/x86",
     "-GNinja"
   ],
-  "intermediatesParentFolder": "/home/android/Desktop/android_apps/Ehtiraf_App/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e"
+  "intermediatesParentFolder": "/Users/mohamedezzat/StudioProjects/Ehtiraf_App/core/build/intermediates/cxx/Debug/52415g5e"
 }
